@@ -241,7 +241,7 @@ markdown_string = f"""\
 
 # Project Title:
 
-```<span style = "color: #E6BDA6;">```{answers['project_title']}```</span>```
+<span style="color:green">{answers['project_title']}</span>
 ---
 # **What is this project about?**
 

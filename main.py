@@ -235,11 +235,13 @@ answers = ask_questions_for_project()
 md_text = "New"
 file_path = "./README.md"
                             
-# Some markdown content
+# Format the markdown content
 markdown_string = f"""\
+![Alt text](images/special1.png)
+
 # Project Title:
 
-{answers['project_title']}
+<span style = "color: blue;">{answers['project_title']}</span>
 ---
 # **What is this project about?**
 
@@ -375,7 +377,7 @@ try:
                 pre code {{ background: #f4f4f4; padding: 0.5rem; display: block; }}
             </style>
     </head>
-    <body>
+    <body background-color="#ffffff" font-color="#000000">
         {html_content}
     </body>
     </html>

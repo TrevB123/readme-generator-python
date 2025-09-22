@@ -1,22 +1,22 @@
 # Project Title:
 
-dfsfd
+sdf
 ---
 # **What is this project about?**
 
-dfsfds
+sdf
 ---
 # **How do I install this project?:**
 
-sdffsd
+sdf
 ---
 # **How do I use this project?**
 
-fdsfds
+sdf
 ---
 # **Licence Type:**
 
-MIT License
+GNU Lesser General Public License (LGPL)
 ---
 # **Author name:**
 

@@ -1,34 +1,42 @@
-<div style="border: 1px solid #ccc; padding: 10px;">
-
 ![Image of coding and computers](./special1.jpg)
 
 # Project Title:
 
-<span style="color:blue">Test</span>
+Test
+
 ---
+
 # **What is this project about?**
 
 Test
+
 ---
+
 # **How do I install this project?:**
 
-test
+Test
+
 ---
+
 # **How do I use this project?**
 
-tes
+Test
+
 ---
+
 # **Licence Type:**
 
-GNU Lesser General Public License (LGPL)
+Apache License 2.0
+
 ---
+
 # **Author name:**
 
-tes
+Test
+
 ---
+
 # **Contact Details:**
 
-
-
-</div>
+Test
 

@@ -2,7 +2,7 @@
 
 # Project Title:
 
-<span style = "color: #E6BDA6;">fd</span>
+fd
 ---
 # **What is this project about?**
 

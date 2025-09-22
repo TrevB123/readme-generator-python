@@ -1,4 +1,14 @@
 **/.DS_Store
 .DS_Store
-.env
 .venv
+.venv/
+venv
+venv/
+.myenv
+.myenv/
+myenv
+myenv/
+.myvenv
+.myvenv/
+myvenv
+myvenv/

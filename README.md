@@ -1,20 +1,20 @@
-![Alt text](./special1.png)
+![Image of coding and computers](./special1.jpg)
 
 # Project Title:
 
-fd
+```<span style = "color: #E6BDA6;">```Trevor```</span>```
 ---
 # **What is this project about?**
 
-dsf
+sdf
 ---
 # **How do I install this project?:**
 
-dfs
+sdf
 ---
 # **How do I use this project?**
 
-fds
+sdf
 ---
 # **Licence Type:**
 

@@ -104,7 +104,7 @@ print(answers)
 """
 # print a message formatting it with the response color word in the chosen color using rich
 
-print(f"[{responses['color'].lower()}]{responses['name']}[/{responses['color'].lower()}] let's create a README file! 🚀\n")
+print(f"\n[{responses['color'].lower()}]{responses['name']}[/{responses['color'].lower()}] let's create a README file! 🚀\n")
 # print(f"Hey, [{answers['color']}]{answers['name']} [/{answers['color']}] let's create a README file 🚀\n")
 
 

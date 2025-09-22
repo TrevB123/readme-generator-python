@@ -1,29 +1,34 @@
+<div style="border: 1px solid #ccc; padding: 10px;">
+
 ![Image of coding and computers](./special1.jpg)
 
 # Project Title:
 
-<span style="color:green">Test</span>
+<span style="color:blue">Test</span>
 ---
 # **What is this project about?**
 
-fdsfsg dfgds s fs hfdgasfh jshj hsh 
+Test
 ---
 # **How do I install this project?:**
 
-fsghfh 
+test
 ---
 # **How do I use this project?**
 
-sfgh 
+tes
 ---
 # **Licence Type:**
 
-MIT License
+GNU Lesser General Public License (LGPL)
 ---
 # **Author name:**
 
-sfgh
+tes
 ---
 # **Contact Details:**
 
-sfh
+
+
+</div>
+

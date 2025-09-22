@@ -237,6 +237,8 @@ file_path = "./README.md"
                             
 # Format the markdown content
 markdown_string = f"""\
+<div style="border: 1px solid #ccc; padding: 10px;">
+
 ![Image of coding and computers](./special1.jpg)
 
 # Project Title:
@@ -266,6 +268,9 @@ markdown_string = f"""\
 # **Contact Details:**
 
 {answers['contact_details']}
+
+</div>
+
 """
 
 

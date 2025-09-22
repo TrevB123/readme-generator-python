@@ -1,14 +1,16 @@
+![Alt text](images/special1.png)
+
 # Project Title:
 
-sdf
+<span style = "color: blue;">Test</span>
 ---
 # **What is this project about?**
 
-sdf
+sffd
 ---
 # **How do I install this project?:**
 
-sdf
+sdfd
 ---
 # **How do I use this project?**
 
@@ -16,7 +18,7 @@ sdf
 ---
 # **Licence Type:**
 
-GNU Lesser General Public License (LGPL)
+MIT License
 ---
 # **Author name:**
 

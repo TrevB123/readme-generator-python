@@ -6,75 +6,18 @@ from rich.progress import track
 from rich import print
 import time
 from modules import ask_questions_for_project
+from modules import questions_for_name_and_color
 
 console = Console()
 
-# Get initial user input with Inquirer
-# First asking two questions as an extra idea to practice formatting using rich
-while True:
-
-    questions = [
-            {"type": "input", "name": "name", "message": "What is your name?"},
-            {"type": "input", "name": "color", "message": "What is your favourite colour? (Blue, Red, Green, Purple)"},
-            ]
-
-    responses = prompt (questions)
-
-    # Extract all dictionary values
-    # Using loop + keys()
-    res = []
-    for key in responses.keys() :
-        res.append(responses[key])
-
-    # printing result test
-    # print("The list of values is : " +  str(res))
-
-    validColors_str = [] 
-    validColors_str.append("blue")
-    validColors_str.append("red")
-    validColors_str.append("green")
-    validColors_str.append("purple")
-    validColors_str.append("Blue")
-    validColors_str.append("Red")
-    validColors_str.append("Green")
-    validColors_str.append("Purple")
-
-    # printing results test...
-    # print("The list of values is : " +  str(validColors_str))
-
-    # Conditional if, elif and else statments to identify which colour was typed (or not in the else statement). This only allows one of the four colour choices listed to be accepted
-    if res[1] == "blue":
-        print (f"✅ Great choice! You picked [blue]Blue[/blue]")
-        break
-    elif res[1] == "green":
-        print (f"✅ Great choice! You picked [green]Green[/green]")
-        break
-    elif res[1] == "red":
-        print (f"✅ Great choice! You picked [red]Green[/red]")
-        break
-    elif res[1] == "purple":
-        print (f"✅ Great choice! You picked [purple]Purple[/purple]")
-        break
-    elif res[1] == "Green":
-        print (f"✅ Great choice! You picked [green]Green[/green]")
-        break
-    elif res[1] == "Red":
-        print (f"✅ Great choice! You picked [red]Red[/red]")
-        break
-    elif res[1] == "Purple":
-        print (f"✅ Great choice! You picked [purple]Purple[/purple]")
-        break
-    elif res[1] == "Blue":
-        print (f"✅ Great choice! You picked [blue]Blue[/blue]")
-        break
-    else:
-        print (f"❌ Please try again – don't forget to choose only from Blue, Red, Green, Purple.\n")          
+# Call the first function in modules.py
+responses = questions_for_name_and_color()
 
 # print a message formatting it with the response colour word in the chosen colour using rich
 print(f"\n[{responses['color'].lower()}]{responses['name']}[/{responses['color'].lower()}] let's create a README file! 🚀\n")
 
 
-# Call the function in modules.py
+# Call the second function in modules.py
 answers = ask_questions_for_project()
 
 # Create some variables

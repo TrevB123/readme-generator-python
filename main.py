@@ -237,11 +237,11 @@ file_path = "./README.md"
                             
 # Format the markdown content
 markdown_string = f"""\
-![Alt text](images/special1.png)
+![Alt text](special1.png)
 
 # Project Title:
 
-<span style = "color: blue;">{answers['project_title']}</span>
+<span style = "color: #E6BDA6;">{answers['project_title']}</span>
 ---
 # **What is this project about?**
 

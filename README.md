@@ -1,20 +1,20 @@
-![Alt text](images/special1.png)
+![Alt text](./special1.png)
 
 # Project Title:
 
-<span style = "color: blue;">Test</span>
+<span style = "color: #E6BDA6;">fd</span>
 ---
 # **What is this project about?**
 
-sffd
+dsf
 ---
 # **How do I install this project?:**
 
-sdfd
+dfs
 ---
 # **How do I use this project?**
 
-sdf
+fds
 ---
 # **Licence Type:**
 
